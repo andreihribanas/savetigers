@@ -1,0 +1,172 @@
+
+
+body {
+    background-image: url(images/tiger2.png); 
+    background-repeat: repeat;
+    background-size: auto;
+    line-height: 2.5rem;
+}
+
+
+header{
+    background-image: url('./images/tiger-eyes.jpg');
+    background-repeat: no-repeat;
+    height: 55vw;
+    border-bottom: none;
+    background-size: 100vw;
+   
+    padding-top: 2%;
+}
+
+.jumbotron-bottom {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    background-color: black;
+}
+
+.menu-item{
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    padding-left: 2%;
+    float: left;
+}
+
+.menu-item:hover {
+    color: darkorange;
+    text-decoration-color: darkorange;
+    font-weight: bold;
+}
+
+
+.align-center {
+    text-align: center;
+}
+
+.form-label, .form-group {
+    text-align: left !important;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 5%;
+    background-color: white;
+    opacity: 0.95;
+    margin-top: 5%;
+    border: 0.2rem solid black;
+    box-shadow: 1rem 5rem 30rem black;
+}
+
+.next-section {
+    cursor: pointer;
+}
+
+.newsletter{
+    text-align: center;
+    align-content: center;
+    padding: 1%;
+}
+
+.newsletter-heading {
+    text-align: center;
+    color: darkorange;
+    font-family: 'Pangolin', cursive;
+    padding: 1%;
+}
+
+
+.section-heading {
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+    font-family: 'Pangolin', cursive;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.subsection-heading {
+    font-style: italic;
+    color: darkorange;
+    font-weight: bold;
+}
+
+.row {
+    text-align: center;
+}
+
+.save {
+    background-image: url('./images/clawmark.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.scale {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Pangolin', cursive;
+}
+
+.text-justify{
+    font-size: 1rem;
+    font-family: 'Crimson Text', serif;
+}
+
+.orange, .white {
+    font-weight: bold;
+}
+
+.orange {
+    color: darkorange;
+}
+
+.white {
+    color: white;
+}
+
+.donation-container {
+    text-align: left;
+}
+
+
+.donate {
+    position: relative;
+    display: inline-block;
+    border: 0.1rem solid darkorange;
+
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.donate:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+#five:active {
+    background-color: black;
+}
+
+input[type=text], input[type=date] {
+    border: 0.15rem solid darkorange;
+    color: black;
+    
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
