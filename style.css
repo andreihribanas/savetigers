@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(images/tiger2.png); 
+    background-image: url('./images/tiger2.png'); 
     background-repeat: repeat;
     background-size: auto;
     line-height: 2.5rem;
@@ -18,13 +18,12 @@ header{
     padding-top: 2%;
 }
 
-.jumbotron-bottom {
-    margin-top: 5%;
-    margin-bottom: 0%;
-    background-color: black;
+.navbar {
+    background-color: darkorange;
 }
 
-.menu-item{
+
+.nav-link{
     font-size: 1.7rem;
     font-weight: bold;
     display: block;
@@ -33,25 +32,22 @@ header{
     text-decoration-color: white;
     padding-left: 2%;
     float: left;
+    font-family: 'Pangolin', cursive;
 }
 
-.menu-item:hover {
-    color: darkorange;
-    text-decoration-color: darkorange;
-    font-weight: bold;
+.title-container { 
+    margin-top: 5%;
 }
 
-
-.align-center {
+.title {
+    color: white;
     text-align: center;
-}
-
-.form-label, .form-group {
-    text-align: left !important;
-    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'Pangolin', cursive;
 }
 
 
+/** Section formating */
 section {
     padding: 5%;
     background-color: white;
@@ -59,23 +55,6 @@ section {
     margin-top: 5%;
     border: 0.2rem solid black;
     box-shadow: 1rem 5rem 30rem black;
-}
-
-.next-section {
-    cursor: pointer;
-}
-
-.newsletter{
-    text-align: center;
-    align-content: center;
-    padding: 1%;
-}
-
-.newsletter-heading {
-    text-align: center;
-    color: darkorange;
-    font-family: 'Pangolin', cursive;
-    padding: 1%;
 }
 
 
@@ -86,22 +65,76 @@ section {
     font-family: 'Pangolin', cursive;
     font-size: 2rem;
     padding: 1%;
+    text-align: center;
 }
 
 .subsection-heading {
     font-style: italic;
     color: darkorange;
     font-weight: bold;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
 }
+
+.section-content{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Crimson Text', serif;
+}
+
+
+.next-section {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+.jumbotron-bottom {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    background-color: black;
+}
+
+
+
+.newsletter-container{
+    text-align: center;
+    align-content: center;
+    padding: 1%;
+     font-family: 'Pangolin', cursive;
+}
+
+.newsletter-heading {
+    text-align: center;
+    color: darkorange;
+  
+    padding: 1%;
+}
+
+
+.other-content {
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: darkorange;
+}
+
+
+.form-label, .form-group {
+    text-align: left !important;
+    font-weight: bold;
+}
+
 
 .row {
     text-align: center;
 }
 
-.save {
-    background-image: url('./images/clawmark.jpg');
-    background-repeat: repeat;
-    background-size: cover;
+
+
+#subscribe-btn {
+    text-align: center;
 }
 
 .scale {
@@ -109,20 +142,9 @@ section {
     height: 100%;
 }
 
-.title {
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-    font-family: 'Pangolin', cursive;
-}
-
-.text-justify{
-    font-size: 1rem;
-    font-family: 'Crimson Text', serif;
-}
-
 .orange, .white {
     font-weight: bold;
+    text-align: center;
 }
 
 .orange {
@@ -160,8 +182,7 @@ section {
 
 input[type=text], input[type=date] {
     border: 0.15rem solid darkorange;
-    color: black;
-    
+    color: black; 
 }
 
 .hide {
