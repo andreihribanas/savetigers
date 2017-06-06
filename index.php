@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    
+
     <head>
         <title> SAVE TIGERS </title>
-        
+
          <!-- Required meta tags always come first -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=yes, user-scalable=yes">
@@ -11,171 +11,162 @@
 		<meta name="HandheldFriendly" content="true">
 
         <!--  Loadd Bootstrap framework -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
         <!--  Loadd FontAwesome incons -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+
         <!--  Loadd internal css style sheet -->
         <link rel="stylesheet" type="text/css" href="./style.css">
-        
+
         <!--  Loadd custom fonts -->
         <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     </head>
-  
-	
-	
+
+
+
     <body >
-        
-        
+
+
          <header id="header">
                 <div class="container-fluid">
-                  
-                   <nav class="navbar navbar-toggleable-md navbar-fixed-top">
-                      <div class=" navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-item nav-link menu-item active" href="#whoAreWe"> What do we fight for? <span class="sr-only">(current)</span></a>
-                          <a class="nav-item nav-link menu-item" href="#whySaveTigers">Why save?</a>
-                          <a class="nav-item nav-link menu-item" href="#didYouKnowThat">Did you know that</a>
-                          <a class="nav-item nav-link menu-item" href="#helpUsStop">Help stop</a>
-                          <a class="nav-item nav-link menu-item" href="#donate">Contribute</a>
-                          
-                        </div>
-                      </div>
-                    </nav>
-                   
-                
-                     <div class="row-fluid title-container">
-                        <h1 class="title"> <strong> <span class="white"><i class="fa fa-paw" aria-hidden="true"></i> PAW </span> <span class="orange">UP</span> </strong></h1>
-                        <h4 class="title"> <strong> <span class="orange">Help <span class="white">to</span> Preserve</span> <span class="white">the </span><span class="orange">Life </span></strong></h4>
+                    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
+                      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <a class="navbar-brand" href="#"> <i class="fa fa-paw fa-2x" aria-hidden="true"></i> </a>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item"> <a class="nav-link" href="#whoAreWe"> What do we fight for? <span class="sr-only">(current)</span></a>
+                          <li class="nav-item"> <a class="nav-link" href="#whySaveTigers">Why save the tigers?</a>
+                          <li class="nav-item"> <a class="nav-link" href="#didYouKnowThat">Did you know that?</a>
+                          <li class="nav-item"> <a class="nav-link" href="#helpUsStop">Help stop</a>
+                          <li class="nav-item"> <a class="nav-link" href="#donate">Contribute</a>
+                        </ul>
                     </div>
-                    
-                </div>   
+                  </nav>
+
+                   <div class="row-fluid title-container">
+                      <h1 class="title"> <strong> <span class="white"><i class="fa fa-paw" aria-hidden="true"></i> PAW </span> <span class="orange">UP</span> </strong></h1>
+                      <h4 class="title"> <strong> <span class="orange">Help <span class="white">to</span> Preserve</span> <span class="white">the </span><span class="orange">Life </span></strong></h4>
+                  </div>
+                </div>
         </header>
-        
-    
+
+
         <div class="container">
-        
-        
-       <!-------------------------------------------------- WHO ARE WE SECTION -------------------------------------------------------->         
 
-        <section class="jump-to-next-section" id="whoAreWe"> <div class="row"> 
+           <!-- WHO ARE WE SECTION -------------------------------------------------------->
+            <section class="jump-to-next-section" id="whoAreWe">
 
-            <h1 class="section-heading"> <i class="fa fa-paw" aria-hidden="true"></i> WHAT DO WE FIGHT FOR? <i class="fa fa-paw" aria-hidden="true"></i> </h1>
-            <br>
+                <h1 class="section-heading"> <i class="fa fa-paw" aria-hidden="true"></i> WHAT DO WE FIGHT FOR? <i class="fa fa-paw" aria-hidden="true"></i> </h1>  <br>
 
-                 <p class="section-content">
-                    Often at times, the human kind act rashly out of greed and for its own interest without knowing that every malicious action they take weakens the planet and make it less and less able to support life. It may not happen during our lives but even the smallest action course help accelerate the destruction of natural resources. <br> <br>
-                    No one can fight all the evil in the world, the world needs to be saved little by little. Every action of stopping malicious deeds contributes very much to the end goal. Even though 
-                     it does not feel that way, that is a part everyone plays towards the objective. <br><br>
-                     <strong>Paw</strong><span class="orange"><strong>UP</strong></span> organisation is dedicated to the preservation of species and fight against the extinction and we are working close with WWF foundation in order to help preserve
-                        animal species around the planet.<br><br>
-                    Our current campaign is dedicated to prevent the life endagerement of tigers, so if you are up to the task of saving a beautiful animal please join us!
+                <div class="row">
+                   <p class="section-content">
+                      Often at times, the human kind act rashly out of greed and for its own interest without knowing that every malicious action they take weakens the planet and make it less and less able to support life. It may not happen during our lives but even the smallest action course help accelerate the destruction of natural resources. <br> <br>
+                      No one can fight all the evil in the world, the world needs to be saved little by little. Every action of stopping malicious deeds contributes very much to the end goal. Even though
+                       it does not feel that way, that is a part everyone plays towards the objective. <br><br>
+                       <strong>Paw</strong><span class="orange"><strong>UP</strong></span> organisation is dedicated to the preservation of species and fight against the extinction and we are working close with WWF foundation in order to help preserve
+                          animal species around the planet.<br><br>
+                      Our current campaign is dedicated to prevent the life endagerement of tigers, so if you are up to the task of saving a beautiful animal please join us!
+                  </p>
+                </div>    <!-- END SECTION ----->
 
-                </p>
 
-            </div>    <!---- END SECTION ----->
+                <!-- Go to next section button --->
+                <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
+            </section>
 
-            
-            <!-- Go to next section button --->
-            <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
-        </section>
 
-               
-                
-        <!-------------------------------------------------- WHY SAVE TIGERS -------------------------------------------------------->         
-                   
-        <section class="jump-to-next-section"  id="whySaveTigers">
-            <div class="row">
+
+            <!-- WHY SAVE TIGERS -------------------------------------------------------->
+            <section class="jump-to-next-section"  id="whySaveTigers">
+
                 <h1 class="section-heading"> <i class="fa fa-paw" aria-hidden="true"></i> WHY SHOULD WE SAVE THE TIGERS? <i class="fa fa-paw" aria-hidden="true"></i> </h1>
-            </div>
-            
-            <br> <br>
-       
-            
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 class="subsection-heading text-center"> Save the ecosystem </h4>
-                    <p class="section-content"> 
-                        When a species goes extinct, it leaves behind a scar, which affects the entire ecosystem. Not only is tiger a beautiful animal but it is also the indicator of the forest's health. Saving the tiger means we save the forest since tiger cannot live in places where trees have vanished and in turn secure food and water for all.
-                    </p>
-                </div>                
-                
-                <div class="col-md-6">
-                    <h4 class="subsection-heading"> Save the other species </h4>
-                    <p class=" section-content">
-                        To make sure that these herbivores live, we must make sure that all the trees, grass and other plants that these prey animals need for food are protected. In this way, the whole forest gets saved! Saving the tiger means saving its entire forest kingdom with all the other animals in it.  If we make sure tigers live, we must make sure that deer, antelope and all other animals that the tiger eats (its prey base) live.
-                    </p>
-                </div>      
-            </div>
-            
-            <br>
-            
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 class="subsection-heading"> Save the forest and ourselves </h4>
-                    <p class="section-content">
-                        Forests catch and help store rainwater and protect soils. In this way, we protect our rivers and recharge groundwater sources. Areas with less trees lead to floods, killing people and destroying homes. It takes away the precious soil, leaving behind a wasteland. The soil jams up our lakes and dams, reducing their ability to store water. By destroying the tiger's home, we not only harm tigers, but also ourselves.
-                    </p>
-                </div>
-                
-                <div class="col-md-6">
-                    <h4 class="subsection-heading"> Symbol for protection </h4>
-                    <p class="section-content">
-                        The tiger thus becomes the symbol for the protection of all species on our earth since it is at the top of the food chain. Therefore, we sometimes call the tiger, an apex predator, an indicator of our ecosystem's health.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Go to next section button --->
-            <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
-            <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
-        </section>  <!-- END SECTION -->
-        
-        
-        <!-------------------------------------------------- DID YOU KNOW THAT SECTION -------------------------------------------------------->         
- 
-        <section class="jump-to-next-section"  id="didYouKnowThat">
-            <h1 class="section-heading"><i class="fa fa-paw" aria-hidden="true"></i> DID YOU KNOW THAT ...? <i class="fa fa-paw" aria-hidden="true"></i></h1>    <br>  
-            <div class="row">
-                 <div class="col-md-4">
-                    <h4 class="subsection-heading"> Basic info </h4>
-                    <p class=" section-content">
-                        The Siberian tiger, also known as the Amur tiger, is the largest subspecies of tiger. Siberian tigers are found primarily in the birch forests of Siberia, eastern Russia, China and North Korea. Siberian tigers are considered an endangered species, and scientists estimate that there are only about 400 to 500 of these cats left in the wild.
-                    </p>
-                     <div class="col-md-12 img-container"><img src="./images/amur-tiger.jpg" class="scale"></div>
-                </div>           
+                <br> <br>
 
-                <div class="col-md-4">
-                    <h4 class="subsection-heading"> Location </h4>
-                    <p class=" section-content">
-                        Unfortunately Siberia is their only natural habitat remaining as they have been destroyed in Asia and Russia over the years. What is very scary is that they are very genetically close to other species of tigers that have already become extinct. This tends to lead one to expect that is the future for them as well.
-                    </p>
-                     <div class="col-md-12 img-container"><img src="./images/tiger-siberia-location.jpg" class="scale"></div>
-                </div>          
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="subsection-heading text-center"> Save the ecosystem </h4>
+                        <p class="section-content">
+                            When a species goes extinct, it leaves behind a scar, which affects the entire ecosystem. Not only is tiger a beautiful animal but it is also the indicator of the forest's health. Saving the tiger means we save the forest since tiger cannot live in places where trees have vanished and in turn secure food and water for all.
+                        </p>
+                    </div>
 
-                <div class="col-md-4">
-                    <h4 class="subsection-heading"> Genetics </h4>
-                    <p class="section-content">
-                       A huge problem for the future of Siberian tigers though due to low numbers is there genetic profile. This particular species has very little variation as it is when it comes to distinctive genetic factors. So when you are also talking about populations out there in the wild that are very closely related you run into even larger problems. Inbreeding can result in offspring that is very poor genetically and this isn’t going to help them with their quest for survival.
-                    </p>
-                     <div class="col-md-12 img-container"><img src="./images/genetics.jpg" class="scale"></div>
-                </div>          
-            </div>
-            
-            <!-- Go to next section button --->
-            <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
-            <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
-        </section> <!-- END SECTION --->
-        
-        
-        
-        
-        <!-------------------------------------------------- HELP US STOP SECTION -------------------------------------------------------->         
+                    <div class="col-md-6">
+                        <h4 class="subsection-heading"> Save the other species </h4>
+                        <p class=" section-content">
+                            To make sure that these herbivores live, we must make sure that all the trees, grass and other plants that these prey animals need for food are protected. In this way, the whole forest gets saved! Saving the tiger means saving its entire forest kingdom with all the other animals in it.  If we make sure tigers live, we must make sure that deer, antelope and all other animals that the tiger eats (its prey base) live.
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="subsection-heading"> Save the forest and ourselves </h4>
+                        <p class="section-content">
+                            Forests catch and help store rainwater and protect soils. In this way, we protect our rivers and recharge groundwater sources. Areas with less trees lead to floods, killing people and destroying homes. It takes away the precious soil, leaving behind a wasteland. The soil jams up our lakes and dams, reducing their ability to store water. By destroying the tiger's home, we not only harm tigers, but also ourselves.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4 class="subsection-heading"> Symbol for protection </h4>
+                        <p class="section-content">
+                            The tiger thus becomes the symbol for the protection of all species on our earth since it is at the top of the food chain. Therefore, we sometimes call the tiger, an apex predator, an indicator of our ecosystem's health.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Go to next section button --->
+                <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
+                <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
+            </section>  <!-- END SECTION -->
+
+
+            <!-- DID YOU KNOW THAT SECTION -------------------------------------------------------->
+            <section class="jump-to-next-section"  id="didYouKnowThat">
+                <h1 class="section-heading"><i class="fa fa-paw" aria-hidden="true"></i> DID YOU KNOW THAT ...? <i class="fa fa-paw" aria-hidden="true"></i></h1>    <br>
+                <div class="row">
+                     <div class="col-md-4">
+                        <h4 class="subsection-heading"> Basic info </h4>
+                        <p class=" section-content">
+                            The Siberian tiger, also known as the Amur tiger, is the largest subspecies of tiger. Siberian tigers are found primarily in the birch forests of Siberia, eastern Russia, China and North Korea. Siberian tigers are considered an endangered species, and scientists estimate that there are only about 400 to 500 of these cats left in the wild.
+                        </p>
+                         <div class="col-md-12 img-container"><img src="./images/amur-tiger-min.jpg" class="scale"></div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 class="subsection-heading"> Location </h4>
+                        <p class=" section-content">
+                            Unfortunately Siberia is their only natural habitat remaining as they have been destroyed in Asia and Russia over the years. What is very scary is that they are very genetically close to other species of tigers that have already become extinct. This tends to lead one to expect that is the future for them as well.
+                        </p>
+                         <div class="col-md-12 img-container"><img src="./images/tiger-siberia-location-min.jpg" class="scale"></div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4 class="subsection-heading"> Genetics </h4>
+                        <p class="section-content">
+                           A huge problem for the future of Siberian tigers though due to low numbers is there genetic profile. This particular species has very little variation as it is when it comes to distinctive genetic factors. So when you are also talking about populations out there in the wild that are very closely related you run into even larger problems. Inbreeding can result in offspring that is very poor genetically and this isn’t going to help them with their quest for survival.
+                        </p>
+                         <div class="col-md-12 img-container"><img src="./images/genetics-min.jpg" class="scale"></div>
+                    </div>
+                </div>
+
+                <!-- Go to next section button --->
+                <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
+                <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
+            </section> <!-- END SECTION --->
+
+
+
+
+        <!-- HELP US STOP SECTION -------------------------------------------------------->
         <section  class="jump-to-next-section" id="helpUsStop">
              <h1 class="section-heading"><i class="fa fa-paw" aria-hidden="true"></i> HELP US STOP <i class="fa fa-paw" aria-hidden="true"></i></h1> <br>
-            
+
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 icons-container">
                         <span class="fa-stack fa-4x">
@@ -184,7 +175,7 @@
                         </span>
 
                         <h4 class="subsection-heading"> <strong> Poaching </strong></h4>
-                        <p class="section-content">     
+                        <p class="section-content">
                             Tigers are poached for trophies, such as teeth and fur, and for use in traditional medicines.The increase in human population also means that tigers come into contact with farm animals, and farmers sometimes illegally kill the tigers to protect their herds.
                         </p>
                     </div>
@@ -196,10 +187,10 @@
                         </span>
 
                         <h4 class="subsection-heading"> <strong> Loss of habitat</strong> </h4>
-                        <p class="section-content">     
+                        <p class="section-content">
                             This is mostly due to human interference. As the human population grows, it needs the materials in the jungles and forests where tigers live. Cutting down trees for wood and harvesting other plants are acts of deforestation that greatly reduce the tigers' habitat. Humans hunt some of the tigers' prey species, which takes food away from dwindling tiger populations. The loss of habitat also leads to a reduction in prey animals, so the area can support fewer tigers.
                         </p>
-                    </div>    
+                    </div>
 
                     <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
                         <span class="fa-stack fa-4x">
@@ -208,34 +199,34 @@
                         </span>
 
                         <h4 class="subsection-heading"> <strong> Climate change </strong></h4>
-                        <p class="section-content">     
+                        <p class="section-content">
                            Climate change is dangerous to tigers because it changes the jungles in which the tigers live. As the jungles have difficulty adapting to the changing temperatures, habitats for tigers decrease. Rising sea levels also erode coastal regions, which further encroach upon these habitats.
                         </p>
                     </div>
                 </div>
-            
+
                 <div class="row">
                     <div class="col-md-12">
                         <br>
                         <h4 class="subsection-heading"> Tigers last natural home</h4> <br>
-                   
+
                         <div id="player"></div>
                     </div>
                 </div>
-                
+
                 <br>
-                
+
                 <!-- Go to next section button --->
                 <div class="next-section"> <i class="fa fa-chevron-circle-down fa-3x text-warning next" aria-hidden="true"></i> </div>
                 <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
         </section>  <!-- END SECTION -->
-        
-        
-        
-        <!-------------------------------------------------- MAKE A DONATION / CONTRIBUTE SECTION -------------------------------------------------------->         
+
+
+
+        <!-------------------------------------------------- MAKE A DONATION / CONTRIBUTE SECTION -------------------------------------------------------->
         <section class="jump-to-next-section"  id="donate">
              <h1 class="section-heading"><i class="fa fa-paw" aria-hidden="true"></i> YOU CAN DRIVE A DIFFERENCE! MAKE A DONATION <i class="fa fa-paw" aria-hidden="true"></i></h1> <br>
-            
+
             <div class="row">
                 <p class="section-content">
                     First step is to educate the local communities about the consequences of their actions, fight the root cause in order to put a hold on poaching.<br>
@@ -245,88 +236,88 @@
 
                 </p>
             </div>
-            
+
             <div class="row donation-container">
                 <div class="container">
-                    
+
                     <br> <h1 class="subsection-heading"> <strong> MAKE A DONATION </strong></h1><br>
-                    
+
                         <div id="error"></div>
-                  
+
                         <div class="col-md-6 ">
                             <div class="row form-group">
                                 <label for="donate" class="form-label"> Select donation </label>
-                            
+
                                 <button class="btn btn-warning btn-lg" id="donateFive"> £5 </button>
                                 <button class="btn btn-warning btn-lg" id="donateTen"> £10 </button>
                                 <button class="btn btn-warning btn-lg" id="donateTwentyFive"> £25 </button>
-                                <button class="btn btn-warning btn-lg" id="donateOther"> Other </button> 
+                                <button class="btn btn-warning btn-lg" id="donateOther"> Other </button>
                             </div>
-                                
+
                             <div class="row form-group">
                                 <input type="text" name="other-amount" id="other-amount" class="form-control" placeholder="Amount in GBP">
                             </div>
-                                
-                                
-                             <div class="row">    
+
+
+                             <div class="row">
                                 <div class="row form-group">
                                     <label class="form-label"> Name as appears on the card: </label>
                                     <input class="form-control" type="text" id="nameCard">
                                 </div>
-                                
+
                                 <div class="row form-group">
                                     <div class="col-md-9">
                                         <label class="form-label"> Card number: </label>
                                         <input class="form-control" type="text" placeholder="1111-1111-1111-1111" id="cardNo">
-                                    </div>         
-                                    
+                                    </div>
+
                                     <div class="col-md-3">
                                         <label class="form-label"> CVV: </label>
                                         <input class="form-control" type="text" placeholder="XXX" id="cvv">
                                     </div>
                                 </div>
-                                
+
                                 <div class="row form-group">
                                     <label class="form-label"> Select expiry date: </label>
                                     <input type="date" class="form-control" id="expiryDate">
                                 </div>
-                                
+
                             </div>
                         </div>
-                        
+
                         <div class="col-md-1"></div>
                             <div class="col-md-5">
                                 <h4 class="subsection-heading"> <strong> Billing information</strong></h4>
                                     <div class="form-group">
                                         <label for="name" class="form-label"> Name: </label>
                                         <input type="text" name="name" class="form-control" id="name">
-                                    </div>  
-                                
+                                    </div>
+
                                     <div class="form-group">
                                         <label for="surname" class="form-label"> Surname: </label>
                                         <input type="text" name="surname" class="form-control" id="surname">
                                     </div>
-                                    
+
                                     <div class="form-group">
                                         <label for="address1" class="form-label"> Address line: </label>
                                         <input type="text" name="address" class="form-control" id="address">
                                     </div>
-                                                         
+
                                     <div class="form-group">
                                         <label for="address2" class="form-label"> Post code: </label>
                                         <input type="text" name="postCode" class="form-control" id="postCode">
                                     </div>
-                                
+
                                           <div class="form-group">
                                         <label for="email" class="form-label"> Email: </label>
                                         <input type="text" name="email" class="form-control" id="email">
                                     </div>
-                                
-                                
+
+
                             </div>
-                            
-                   
-                        
+
+
+
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="row">
@@ -338,102 +329,90 @@
                         <div class="col-md-6">
 
                         </div>
-                        
-                    
+
+
                 </div>
             </div>
-                
+
                 <br>
-                
+
              <!-- Go to next section button --->
             <div class="next-section"> <i class="fa fa-chevron-circle-up fa-3x text-warning prev" aria-hidden="true"></i> </div>
-            
+
         </section>  <!--- END SECTION -->
 
-        </div>  <!--- END CONTAINER WRAPPER --?
+        </div>  <!--- END CONTAINER WRAPPER -?
 
-        
 
-        
-         <!-- ~Footer Jumbotron  -->
+
+
+         <!- ~Footer Jumbotron  -->
         <footer class="jump-to-next-section"  id="footer">
             <div class="jumbotron jumbotron-fluid jumbotron-bottom">
                 <div class="container">
+
                   <div class="row">
-                       
-                        <div class="col-md-6 text-center newsletter-container">  
+                        <div class="col-md-6 text-center newsletter-container">
                             <h1 class="newsletter-heading"> <strong>NEWSLETTER </strong> </h1><br>
-                            
-                                <div class="row-fluid">
                                     <form >
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
+                                        <div class=" form-group">
+                                            <div class="col-md-10 offset-md-2">
                                                  <h4 class="form-label orange">  Please enter the email address: </h4>
                                                  <input type="text" name="email" class="form-control align-center" placeholder="Enter your email address" id="subscribe-address">
                                             </div>
                                         </div>
 
-                                        <div class="row form-group text-center">
-                                            <div class="col-md-12">
-                                                <input type="submit" name="submit" class="btn btn-warning btn-lg" id="subscribe-btn" value="Subscribe">
+                                        <div class=" form-group text-center">
+                                            <div class="col-md-10 offset-md-2">
+                                                <input type="submit" name="submit" class="btn btn-lg btn-block btn-subscribe" id="subscribe-btn" value="Subscribe">
                                             </div>
                                         </div>
-
-
                                     </form>
-                                </div>
-                           
-                        </div>
+                        </div> <!-- end of newsletter container -->
 
-                        <div class="col-md-6 other-content">   
+                        <div class="col-md-6 other-content">
                             <p> Contact us </p>
                             <p> Terms and conditions </p>
                             <p> Data protection </p>
+                            <p> other </p>
+                            <p> other </p>
                         </div>
                     </div>
-                    
+
                     <br><br>
-                    
-                    <div class="row">
+
+                    <div class=" col-md-8 offset-md-2">
                         <h6 class="newsletter-heading"><strong> &copy; 2017 - DESIGNED BY ANDREI HRIBANAS </strong></h6>
                     </div>
                 </div>
             </div>
         </footer>
-        
-        
-        <!-- JQuery plugin -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 
-        <!-- Tether plugin -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-        
-        <!-- Bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-      
-    
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
         <!-- Load local JavaSript script file -->
         <script type="text/javascript" src="scripts/script.js"></script>
-      
-      
-        
-        <script>
-            
+
+        <script type="text/javascript">
+
             // Go to next section
             goToNextSection();
-        
-            
+
             //Load Tigers last natural home video;
             loadVideo();
-           
+
             // Compute donation amount and validate form
             computeDonationAmount();
 
             // Toggle navbar visibility
             toggleNavbar();
-            
+
     </script>
-        
+
     </body>
 
 </html>
