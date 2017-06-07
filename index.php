@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -9,7 +10,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=yes, user-scalable=yes">
         <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
-		<meta name="HandheldFriendly" content="true">
+		    <meta name="HandheldFriendly" content="true">
 
         <!--  Loadd Bootstrap framework -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -25,34 +26,30 @@
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     </head>
 
-
-
     <body >
-
-
-         <header id="header">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
-                      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <a class="navbar-brand" href="#"> <i class="fa fa-paw fa-2x" aria-hidden="true"></i> </a>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                          <li class="nav-item"> <a class="nav-link" href="#whoAreWe"> What do we fight for? <span class="sr-only">(current)</span></a>
-                          <li class="nav-item"> <a class="nav-link" href="#whySaveTigers">Why save the tigers?</a>
-                          <li class="nav-item"> <a class="nav-link" href="#didYouKnowThat">Did you know that?</a>
-                          <li class="nav-item"> <a class="nav-link" href="#helpUsStop">Help stop</a>
-                          <li class="nav-item"> <a class="nav-link" href="#donate">Contribute</a>
-                        </ul>
-                    </div>
-                  </nav>
-
-                   <div class="row-fluid title-container">
-                      <h1 class="title"> <strong> <span class="white"><i class="fa fa-paw" aria-hidden="true"></i> PAW </span> <span class="orange">UP</span> </strong></h1>
-                      <h4 class="title"> <strong> <span class="orange">Help <span class="white">to</span> Preserve</span> <span class="white">the </span><span class="orange">Life </span></strong></h4>
-                  </div>
+       <header id="header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
+                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"> <i class="fa fa-paw fa-2x" aria-hidden="true"></i> </a>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item"> <a class="nav-link" href="#whoAreWe"> What do we fight for? <span class="sr-only">(current)</span></a>
+                      <li class="nav-item"> <a class="nav-link" href="#whySaveTigers">Why save the tigers?</a>
+                      <li class="nav-item"> <a class="nav-link" href="#didYouKnowThat">Did you know that?</a>
+                      <li class="nav-item"> <a class="nav-link" href="#helpUsStop">Help stop</a>
+                      <li class="nav-item"> <a class="nav-link" href="#donate">Contribute</a>
+                    </ul>
                 </div>
+              </nav>
+
+               <div class="row-fluid title-container">
+                  <h1 class="title"> <strong> <span class="white"><i class="fa fa-paw" aria-hidden="true"></i> PAW </span> <span class="orange">UP</span> </strong></h1>
+                  <h4 class="title"> <strong> <span class="orange">Help <span class="white">to</span> Preserve</span> <span class="white">the </span><span class="orange">Life </span></strong></h4>
+              </div>
+            </div>
         </header>
 
         <div class="container">
@@ -251,33 +248,36 @@
                        ?>
 
                       <div class="row">
-                          <form action="server.php" method="POST" id="payment-form">
-                              <div class="form-row">
-                                <label for="card-element">
-                                  Credit or debit card
-                                </label>
-                                <div id="card-element" class="form-control">
-                                  <!-- a Stripe Element will be inserted here. -->
 
-                                </div>
+                          <div class="col-md-8 offset-md-2">
+                                <form action="server.php" method="POST" id="payment-form">
+                                    <div class="form-row">
+                                      <label for="card-element">
+                                        Credit or debit card
+                                      </label>
+                                      <div id="card-element" class="form-control">
+                                        <!-- a Stripe Element will be inserted here. -->
 
-                                <!-- Used to display form errors -->
-                                <div id="card-errors"></div>
-                              </div>
+                                      </div>
 
-                              <div class="form-row">
-                                  <div class="row">
-                                    <div class="col-md-6"><label for="amount">Insert amount to donate</label></div>
-                                    <div class="col-md-6"><input type="text" name="amount" id="amount" value="" class="form-control" placeholder="e.g. 50"></div>
-                                  </div>
-                              </div>
+                                      <!-- Used to display form errors -->
+                                      <div id="card-errors"></div>
+                                    </div>
 
-                              <br>
+                                    <div class="form-row">
+                                        <div class="row">
+                                          <div class="col-md-6"><label for="amount">Insert amount to donate</label></div>
+                                          <div class="col-md-6"><input type="text" name="amount" id="amount" value="" class="form-control" placeholder="e.g. 50"></div>
+                                        </div>
+                                    </div>
 
-                              <div class="form-group">
-                                  <button class="btn btn-success btn-lg btn-block"> Buy now </button>
-                              </div>
-                        </form>
+                                    <br>
+
+                                    <div class="form-group">
+                                        <button class="btn btn-warning btn-lg btn-block"> Pay now </button>
+                                    </div>
+                                </form>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -357,12 +357,10 @@
             //Load Tigers last natural home video;
             loadVideo();
 
-            // Compute donation amount and validate form
-            computeDonationAmount();
-
             // Toggle navbar visibility
             toggleNavbar();
 
+            /*  Stripe js payment settings */
             // initialize stripe client - provide API key
             var stripe = Stripe('pk_test_r3y0aPWDzWt8vDwHsJC86Zeh');
             var elements = stripe.elements();
@@ -410,7 +408,6 @@
                     });
                   });
 
-
                 function stripeTokenHandler(token) {
                   // Insert the token ID into the form so it gets submitted to the server
                   var form = document.getElementById('payment-form');
@@ -424,9 +421,6 @@
                   form.submit();
                 }
 
-
-    </script>
-
+        </script>
     </body>
-
 </html>
