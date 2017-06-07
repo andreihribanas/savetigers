@@ -1,28 +1,5 @@
-/*
-** Jump to the next section function
-** Source: http://stackoverflow.com/questions/29760049/scroll-to-next-section
-// Cache your selectors
-var $sec = $("section");
 
-// On any of both arrows click
-$(".prev, .next").click(function(){
-
-    // We need to get current element
-    // before defining the `.next()` or `.prev()` element to target
-    // and get it's `offset().top` into an `y` variable we'll animate to.
-    // A current element is always the one which bottom position
-    // (relative to the browser top) is higher than 0.
-    var y = $sec.filter(function(i, el) {
-        return el.getBoundingClientRect().bottom > 0;
-    })[$(this).hasClass("next")?"next":"prev"]("section").offset().top;
-    // (Line above:) if the clicked button className was `"next"`,
-    // target the the `.next("section")`, else target the `.prev("section")`
-    // and retrieve it's `.offset().top`
-
-    $("html, body").stop().animate({scrollTop: y});
-
-});
-*/
+// The following function is not my own creation, all right belong to the author
     function goToNextSection(){
 
         var $sec = $("section");

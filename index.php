@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -53,7 +54,6 @@
                   </div>
                 </div>
         </header>
-
 
         <div class="container">
 
@@ -223,7 +223,7 @@
 
 
 
-        <!-------------------------------------------------- MAKE A DONATION / CONTRIBUTE SECTION -------------------------------------------------------->
+        <!-- MAKE A DONATION / CONTRIBUTE SECTION -------------------------------------------------------->
         <section class="jump-to-next-section"  id="donate">
              <h1 class="section-heading"><i class="fa fa-paw" aria-hidden="true"></i> YOU CAN DRIVE A DIFFERENCE! MAKE A DONATION <i class="fa fa-paw" aria-hidden="true"></i></h1> <br>
 
@@ -242,95 +242,43 @@
 
                     <br> <h1 class="subsection-heading"> <strong> MAKE A DONATION </strong></h1><br>
 
-                        <div id="error"></div>
 
-                        <div class="col-md-6 ">
-                            <div class="row form-group">
-                                <label for="donate" class="form-label"> Select donation </label>
+                      <?php
+                          if (isset($_SESSION['payment'])) {
+                            echo $_SESSION['payment'];
+                            $_SESSION['payment'] = "";
+                          }
+                       ?>
 
-                                <button class="btn btn-warning btn-lg" id="donateFive"> £5 </button>
-                                <button class="btn btn-warning btn-lg" id="donateTen"> £10 </button>
-                                <button class="btn btn-warning btn-lg" id="donateTwentyFive"> £25 </button>
-                                <button class="btn btn-warning btn-lg" id="donateOther"> Other </button>
-                            </div>
+                      <div class="row">
+                          <form action="server.php" method="POST" id="payment-form">
+                              <div class="form-row">
+                                <label for="card-element">
+                                  Credit or debit card
+                                </label>
+                                <div id="card-element" class="form-control">
+                                  <!-- a Stripe Element will be inserted here. -->
 
-                            <div class="row form-group">
-                                <input type="text" name="other-amount" id="other-amount" class="form-control" placeholder="Amount in GBP">
-                            </div>
-
-
-                             <div class="row">
-                                <div class="row form-group">
-                                    <label class="form-label"> Name as appears on the card: </label>
-                                    <input class="form-control" type="text" id="nameCard">
                                 </div>
 
-                                <div class="row form-group">
-                                    <div class="col-md-9">
-                                        <label class="form-label"> Card number: </label>
-                                        <input class="form-control" type="text" placeholder="1111-1111-1111-1111" id="cardNo">
-                                    </div>
+                                <!-- Used to display form errors -->
+                                <div id="card-errors"></div>
+                              </div>
 
-                                    <div class="col-md-3">
-                                        <label class="form-label"> CVV: </label>
-                                        <input class="form-control" type="text" placeholder="XXX" id="cvv">
-                                    </div>
-                                </div>
+                              <div class="form-row">
+                                  <div class="row">
+                                    <div class="col-md-6"><label for="amount">Insert amount to donate</label></div>
+                                    <div class="col-md-6"><input type="text" name="amount" id="amount" value="" class="form-control" placeholder="e.g. 50"></div>
+                                  </div>
+                              </div>
 
-                                <div class="row form-group">
-                                    <label class="form-label"> Select expiry date: </label>
-                                    <input type="date" class="form-control" id="expiryDate">
-                                </div>
+                              <br>
 
-                            </div>
-                        </div>
-
-                        <div class="col-md-1"></div>
-                            <div class="col-md-5">
-                                <h4 class="subsection-heading"> <strong> Billing information</strong></h4>
-                                    <div class="form-group">
-                                        <label for="name" class="form-label"> Name: </label>
-                                        <input type="text" name="name" class="form-control" id="name">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="surname" class="form-label"> Surname: </label>
-                                        <input type="text" name="surname" class="form-control" id="surname">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="address1" class="form-label"> Address line: </label>
-                                        <input type="text" name="address" class="form-control" id="address">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="address2" class="form-label"> Post code: </label>
-                                        <input type="text" name="postCode" class="form-control" id="postCode">
-                                    </div>
-
-                                          <div class="form-group">
-                                        <label for="email" class="form-label"> Email: </label>
-                                        <input type="text" name="email" class="form-control" id="email">
-                                    </div>
-
-
-                            </div>
-
-
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <input type="submit" id="btnDonate" value="Donate" class="btn btn-warning btn-lg">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-
-                        </div>
-
-
+                              <div class="form-group">
+                                  <button class="btn btn-success btn-lg btn-block"> Buy now </button>
+                              </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -394,8 +342,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+        <!-- Load stripe js -->
+        <script src="https://js.stripe.com/v3/"></script>
+
         <!-- Load local JavaSript script file -->
         <script type="text/javascript" src="scripts/script.js"></script>
+
 
         <script type="text/javascript">
 
@@ -410,6 +362,68 @@
 
             // Toggle navbar visibility
             toggleNavbar();
+
+            // initialize stripe client - provide API key
+            var stripe = Stripe('pk_test_r3y0aPWDzWt8vDwHsJC86Zeh');
+            var elements = stripe.elements();
+
+                //  tom styling can be passed to options when creating an Element.
+                var style = {
+                  base: {
+                    // Add your base input styles here. For example:
+                    fontSize: '16px',
+                    lineHeight: '24px'
+                  }
+                };
+
+                // Create an instance of the card Element
+                var card = elements.create('card', {style: style});
+
+                // Add an instance of the card Element into the `card-element` <div>
+                card.mount('#card-element');
+
+                // Add event listener
+                  card.addEventListener('change', function(event) {
+                    var displayError = document.getElementById('card-errors');
+                  if (event.error) {
+                    displayError.textContent = event.error.message;
+                  } else {
+                    displayError.textContent = '';
+                  }
+                  });
+
+
+                  // Create a token or display an error when the form is submitted.
+                  var form = document.getElementById('payment-form');
+                  form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+
+                    stripe.createToken(card).then(function(result) {
+                      if (result.error) {
+                        // Inform the user if there was an error
+                        var errorElement = document.getElementById('card-errors');
+                        errorElement.textContent = result.error.message;
+                      } else {
+                        // Send the token to your server
+                        stripeTokenHandler(result.token);
+                      }
+                    });
+                  });
+
+
+                function stripeTokenHandler(token) {
+                  // Insert the token ID into the form so it gets submitted to the server
+                  var form = document.getElementById('payment-form');
+                  var hiddenInput = document.createElement('input');
+                  hiddenInput.setAttribute('type', 'hidden');
+                  hiddenInput.setAttribute('name', 'stripeToken');
+                  hiddenInput.setAttribute('value', token.id);
+                  form.appendChild(hiddenInput);
+
+                  // Submit the form
+                  form.submit();
+                }
+
 
     </script>
 

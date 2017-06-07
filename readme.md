@@ -1,10 +1,26 @@
 
 # Setup
 
+- Download install the Stripe library (download it using composer)
+```php
+    $ composer require stripe/stripe-php
+```
+
+- Load the Stripe library onto your project
+```php
+    require_once('vendor/autoload.php');
+```
+
+- Change Stripe API key with yours: open the server.php file and add your key
+```php
+    \Stripe\Stripe::setApiKey("sk_yourkeygoeshere");
+```
+
+
 ## How to run the project
 
 - Download / clone project link and from the repository
-- Access the resources using a server link
+- Access the resources using on your local server
 
 # Project description
 
@@ -16,7 +32,7 @@ The project was created with the purpose to showcase the design skills rather th
 
 - Single page application
 - Section to section navigation
-- Subscribing to newsletter
+
 - Donation payments
 - Optimized resources (images)
 
@@ -24,9 +40,9 @@ The project was created with the purpose to showcase the design skills rather th
 ## Resources
 
 - HTML & CSS, PHP, Bootstrap 4, JavaScript
-- mailtrap.io (used for mailing tests during development)
 - Stripe.js for processing donations
 
 ## Future tasks/bugs to work on
 
-- [] Leverage browser caching
+- [ ] Leverage browser caching
+- [ ] Subscribing to newsletter
