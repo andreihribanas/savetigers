@@ -251,7 +251,7 @@
 
                           <div class="col-md-8 offset-md-2">
                                 <form action="server.php" method="POST" id="payment-form">
-                                    <div class="form-row">
+                                    <div class="form-group">
                                       <label for="card-element">
                                         Credit or debit card
                                       </label>
@@ -264,10 +264,10 @@
                                       <div id="card-errors"></div>
                                     </div>
 
-                                    <div class="form-row">
+                                    <div class="form-group">
                                         <div class="row">
-                                          <div class="col-md-6"><label for="amount">Insert amount to donate</label></div>
-                                          <div class="col-md-6"><input type="text" name="amount" id="amount" value="" class="form-control" placeholder="e.g. 50"></div>
+                                          <div class="col-md-5"><label for="amount">Insert amount to donate</label></div>
+                                          <div class="col-md-6 offset-md-1"><input type="text" name="amount" id="amount" value="" class="form-control" placeholder="e.g. 50"></div>
                                         </div>
                                     </div>
 

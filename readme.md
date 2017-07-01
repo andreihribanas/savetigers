@@ -24,25 +24,25 @@
 
 # Project description
 
-This project represent a presentation website for a fictive wildlife organization dedicated to fight against the extinctions of animal species, in this case the fight to preserve the tigers species and stop the current extinction process. <br />
+This project represent a presentation website for a fictitious wildlife organization dedicated to fight against the extinctions of animal species, in this case the fight to preserve the tigers species and stop the current extinction process. <br />
 The project was created with the purpose to showcase the design skills rather than implement more advanced functionality. Also focused on the responsive design to display on a range of devices. <br />
 
 
-## Project main features
+# Project main features
 
 - Single page application
 - Section to section navigation
-
-- Donation payments
-- Optimized resources (images)
+- Donation payments (single charges using stripe.js)
 
 
-## Resources
+# Resources
 
 - HTML & CSS, PHP, Bootstrap 4, JavaScript
 - Stripe.js for processing donations
 
-## Future tasks/bugs to work on
+# Future tasks/bugs to work on
 
 - [ ] Leverage browser caching
 - [ ] Subscribing to newsletter
+- [ ] Fix tiger last home video
+- [ ] Add lightbox plugin to view images
